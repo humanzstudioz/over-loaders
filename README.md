@@ -7,7 +7,7 @@ This is an easy way to add an overlay spinner on a DOM's object using simple cla
 
 ## Usage
 
-```
+```css
 <div class="over-loaders thin-spinner">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 </div>
