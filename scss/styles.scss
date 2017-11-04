@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'animations';
+@import 'loaders';
+
+/* =============================  */
+/* OVERLAY SPINNER  */
+/* =============================  */
+.over-loaders {
+	position: relative;
+
+  &:before {
+    content: "";
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #e4e5e6;
+    opacity: 0.6;
+  }
+
+  &:after {
+    z-index: 6;
+    content: "";
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+  }
+
+  &.thin-spinner {
+    &:after {
+      @include thin-spinner($size: 40px, $color: #20a8d8, $border-size: 5px);
+    }
+  }
+}

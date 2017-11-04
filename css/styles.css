@@ -1,0 +1,54 @@
+/* =============================  */
+/* Rotating Animations  */
+/* =============================  */
+/* =============================  */
+/* Scaling Animation  */
+/* =============================  */
+/* =============================  */
+/* OVERLAY SPINNER  */
+/* =============================  */
+.over-loaders {
+  position: relative; }
+  .over-loaders:before {
+    content: "";
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #e4e5e6;
+    opacity: 0.6; }
+  .over-loaders:after {
+    z-index: 6;
+    content: "";
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px; }
+  .over-loaders.thin-spinner:after {
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(32, 168, 216, 0.25);
+    border-top-color: #20a8d8;
+    border-radius: 50%;
+    position: relative;
+    -webkit-animation: loader-rotate 1s linear infinite;
+    animation: loader-rotate 1s linear infinite; }
+
+@-webkit-keyframes loader-rotate {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes loader-rotate {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
