@@ -5,6 +5,10 @@ This is an easy way to add an overlay spinner on a DOM's object using simple cla
 
 ![over-loader example image (thin-spinner)](images/thin-spinner.gif?raw=true "ThinSpinner")
 
+## Installation
+- via npm
+`npm install over-loaders --save-dev`
+
 ## Usage
 
 ```html

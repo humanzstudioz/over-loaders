@@ -1,0 +1,24 @@
+{
+  "name": "over-loaders",
+  "version": "1.0.0",
+  "description": "The easy to add an overlay spinner on a DOM's object using simple classes. Helpful for showing loading animations while doing some Ajax/Axios/Pub-Sub calls.",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humanzstudioz/over-loaders.git"
+  },
+  "keywords": [
+    "over-loaders"
+  ],
+  "author": "Humanz Studioz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/humanzstudioz/over-loaders/issues"
+  },
+  "homepage": "https://github.com/humanzstudioz/over-loaders#readme"
+}
